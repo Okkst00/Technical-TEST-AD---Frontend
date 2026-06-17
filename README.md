@@ -22,8 +22,7 @@ Berikut langkah-langkah untuk menjalankan project frontend di local:
 ---
 
 1. Clone Repository
-   git clone https://github.com/username/frontend-project.git
-   cd frontend-project
+   git clone https://github.com/Okkst00/Technical-TEST-AD---Frontend.git
 
 2. Install Dependency
    Pastikan Node.js sudah terinstall, lalu jalankan:
