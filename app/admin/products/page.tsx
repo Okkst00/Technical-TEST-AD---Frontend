@@ -43,18 +43,16 @@ export default function ProductPage() {
         },
       });
 
-      const data = await res.json();
+      const json = await res.json();
 
       if (!res.ok) {
-        alert(data.message || "Gagal mengambil data");
-
+        alert(json.message || "Gagal mengambil data");
         return;
       }
 
-      setProducts(data || []);
+      setProducts(json.data || []);
     } catch (err) {
       console.log(err);
-
       setProducts([]);
     }
   }
@@ -90,13 +88,9 @@ export default function ProductPage() {
 
       body: JSON.stringify({
         nama_produk: form.nama_produk,
-
         kategori: form.kategori,
-
         harga_modal: Number(form.harga_modal),
-
         stok: Number(form.stok),
-
         status: form.status,
       }),
     });
