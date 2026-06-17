@@ -1,3 +1,16 @@
+# Frontend Web (Next.js + TypeScript + Tailwind)
+
+Project ini adalah frontend aplikasi yang dibangun menggunakan **Next.js (App Router) + TypeScript + Tailwind CSS** dengan struktur sederhana (belum menggunakan Atomic Design secara penuh karena keterbatasan waktu).
+
+---
+
+## Tech Stack
+
+- Next.js (React Framework)
+- TypeScript
+- Tailwind CSS
+- REST API Integration
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
